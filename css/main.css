@@ -1,0 +1,26 @@
+input[type=checkbox]
+{
+	float:left;
+	zoom: 1.7;
+}
+body
+{
+	 background: rgba(218, 165, 32, 0.83);
+}
+.checklist
+{
+	margin-top: 20%;
+    margin-left: 15%;
+    padding: 20px 40px;
+    border: 1px solid whitesmoke;
+    box-shadow: 10px 10px 5px #888888;
+	background: whitesmoke;
+}
+p
+{
+	padding-left: 30px;
+    font-size: 20px;
+}
+input[type=checkbox]:checked + p{
+  text-decoration: line-through;
+}
